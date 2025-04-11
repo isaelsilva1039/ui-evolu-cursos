@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.yarn/build-state.yml
+.yarn/patches/
+
+# build
+.next/
+out/
+
+# test coverage
+coverage/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# environment variables
+.env*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vscode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# types
+types/
+
+# IDE
+.idea/
+*.sw?
+
+# misc
+*.log
+*.tgz
